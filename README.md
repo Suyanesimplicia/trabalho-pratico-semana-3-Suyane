@@ -50,6 +50,6 @@ Esta versão corresponde à refatoração da Home-page, realizada com a utiliza�
 
 
 ## Print v2.0
-![HomePage](public/imagens/v2.png)
+![Versão 2](public/imagens/v2.png)
 
 
