@@ -13,15 +13,43 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 - Proposta de projeto escolhida: Brasil Colônia - Museus e Exposições.
 - Breve descrição sobre seu projeto: Meu projeto pretende apresentar um museu contemporâneo, onde os visitantes sejam incluídos virtualmente, sem a necessidade de se deslocarem para outras cidades.
 
+## 📌 Histórico de Versões  
 
-## Print do(s) wireframe(s) criado
+### 🔖 v1.0 – Home-page Responsiva com CSS Puro  
+Esta versão corresponde à primeira entrega formal do trabalho prático da disciplina **Desenvolvimento de Interfaces Web**, referente à Semana 3.  
 
-![Wireframe](public/imagens/wireframe.png)
+#### Principais Implementações  
+- Estruturação semântica do HTML, incluindo:  
+  - **Header**: logotipo e barra de navegação com quatro links internos;  
+  - **Main**: banner principal e texto introdutório;  
+  - **Section**: blocos informativos no formato de cards (com imagem, título e descrição);  
+  - **Footer** com links institucionais e redes sociais.  
+- Estilização completa em **CSS Puro**, definindo cores, tipografia e espaçamentos.  
+- Criação de **layout responsivo** com uso de **Media Queries, Flexbox e Grid**.  
+- Registro da versão com a **Tag `v1.0`**.  
+
+---
+
+### 🔖 v2.0 – Home-page Responsiva com Bootstrap  
+Esta versão corresponde à refatoração da Home-page, realizada com a utilização do **framework Bootstrap 5**, em conformidade com a Etapa 4 do trabalho prático da disciplina **Desenvolvimento de Interfaces Web**.  
+
+#### Principais Implementações  
+- Inclusão do **Bootstrap via CDN** para padronização visual e responsividade.  
+- Substituição de **Media Queries, Flexbox e Grid nativos** pelo **sistema de Grid do Bootstrap**.  
+- Implementação da **Navbar responsiva** compatível com dispositivos móveis e desktops.  
+- Estruturação da seção “Sobre” com **grid responsivo (row e col)**.  
+- Utilização de **cards do Bootstrap** na seção de conteúdos informativos.  
+- Refatoração do **formulário de contato** com classes nativas (`form-control`, `btn`).  
+- Adequação do **rodapé** com utilitários de cor, alinhamento e tipografia.  
+- Registro da versão com a **Tag `v2.0`**.  
 
 
-
-## Print da home-page criada
+## Print v1.0
 ![HomePage](public/imagens/Homepage.png)
 
+
+
+## Print v2.0
+![HomePage](public/imagens/Mobilev2.0.png.png)
 
 
